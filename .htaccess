@@ -1,0 +1,5 @@
+ErrorDocument 401 https://ftp.niffecs.com/error.php?id=401
+ErrorDocument 400 https://ftp.niffecs.com/error.php?id=400
+ErrorDocument 403 https://ftp.niffecs.com/error.php?id=403
+ErrorDocument 404 https://ftp.niffecs.com/error.php?id=404
+ErrorDocument 500 https://ftp.niffecs.com/error.php?id=500

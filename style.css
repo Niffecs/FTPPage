@@ -1,0 +1,18 @@
+html body {
+    background-color: grey;
+    color: black;
+}
+
+
+.file{
+    margin: auto;
+    width: 50%;
+    border: 3px solid blue;
+    padding: 10px;
+    text-align: center;
+    background-color: azure
+}
+
+a {
+    color: blue;
+  }
