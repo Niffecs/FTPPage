@@ -22,10 +22,9 @@
 <body>
 <br><br><br><br>
     <?php
-        $error_code = $_GET["id"];
+    $error_code = $_GET['id'];
 
-        echo("Error: ".$error_code);
-   
+    echo 'Error: ' . $error_code;
     ?><br><br><br><br>
     <a href="https://ftp.niffecs.com">
     <button type="button">Startseite</button>
