@@ -32,8 +32,8 @@ $total_time = round(($finish - $start), 4);
 $uid = guidv4();
 
 // Ausgabe
-echo "<div id='time'>Time: ".$datum."-".$uhrzeit."</div>";
-echo "<div id='creation'>Creation: ".$total_time."</div>";
+// echo "<div id='time'>Time: ".$datum."-".$uhrzeit."</div>";
+// echo "<div id='creation'>Creation: ".$total_time."</div>";
 echo "<div id='uuid'>UUID: ".$uid."</div>";
 
 ?>
