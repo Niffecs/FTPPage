@@ -12,16 +12,11 @@
 <div id="content">
     <center>Niffecs Content</center>
 </div>
-    <!-- ToDo: Force enable JS to troll people -->
     <?
-     include("var.php");
-     include("content.php");
-    ?>
-<div id="session">
-  <center>
-    <!-- Load Time and Session -->
-    <? 
-    include("session.php");
+        include("var.php");
+        include("content.php");
+        // include("session.php");
+        
     ?>
 </center>
 </div>
