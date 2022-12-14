@@ -16,7 +16,25 @@ html body {
     border-radius: 20px;
 }
 
-a {
-    color: blue;
+.file:hover{
+    background-color: yellow;
+}
 
+a {
+    color: black;
+}
+
+a:hover {
+    color: red;
+    font-size: 0.8cm;
+}
+
+#content{
+    font-size: 2cm;
+    margin-bottom: 1cm;
+    font-weight: bold;
+}
+
+#session{
+    line-height: 1cm;
 }

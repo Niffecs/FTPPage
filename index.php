@@ -8,10 +8,22 @@
     <title>Niffecs FTP Manager</title>
 </head>
 <body>
+
+<div id="content">
+    <center>Niffecs Content</center>
+</div>
     <!-- ToDo: Force enable JS to troll people -->
     <?
      include("var.php");
      include("content.php");
     ?>
+<div id="session">
+  <center>
+    <!-- Load Time and Session -->
+    <? 
+    include("session.php");
+    ?>
+</center>
+</div>
 </body>
 </html>
